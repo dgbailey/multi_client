@@ -7,3 +7,7 @@ Details a potential implementation of Sentry using different clients for various
 Add DSNs & client configurations corresponding to Sentry projects in `./sentry_logging/clients.py`
 
 `python3 example.py`
+
+### Limitations
+---
+This approach has only started to implement tracing on top of the multi client solution to errors. This has not been fully vetted yet.
